@@ -1,0 +1,33 @@
+{
+    "name": "nwidart/videos",
+    "description": "Videos module for Laravel 12 project",
+    "type": "library",
+    "require": {
+     
+    },
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Videos\\": "",
+            "Modules\\Videos\\Database\\Factories\\": "database/factories/",
+            "Modules\\Videos\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Videos\\Tests\\": "tests/"
+        }
+    }
+}
